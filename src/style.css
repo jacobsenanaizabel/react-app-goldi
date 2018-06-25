@@ -8,6 +8,34 @@ body {
     background-size: cover;
 }
 
+.card {
+    width: 26%;
+    background-color: rgb(120, 180, 162);
+    margin-bottom: 30px;
+}
+
+.card-body {
+    align-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.card-list {
+    margin-top: 61px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
 .home-container {
     font-family: fantasy;
     text-align: center;

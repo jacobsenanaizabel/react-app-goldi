@@ -1,21 +1,9 @@
-import React, { Component } from 'react'
-import axios from 'axios'
+import React from 'react'
 
-const URL = 'https://stage-api.gldi.co/api/v1'
-
-
-export default class Main extends Component {
-
-    componentDidMount(){    
-         axios.get(`/api/v1/company`, { crossdomain: true } )
-         .then(res => {
-           const persons = res.data;
-           console.log(res);
-         }) 
-    }
+export default class Main extends React.Component {
 
     render() {
-        return(
+        return (
             <div className="container home-container">
                 <div className="text-welcome">
                     <h1>Gold Company</h1>
