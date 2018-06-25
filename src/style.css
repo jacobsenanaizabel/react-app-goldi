@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    background-image: url("build.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-container {
+    font-family: fantasy;
+    text-align: center;
+}
+.home-container h1 {
+    font-size: 59px;
+    color: #292b2c;
+}
+
+.home-container h2 {
+    font-size: 84px;
+    color:#f42604;
+    border-bottom: 1px solid transparent;    
+    transition: all .5s ease-in;
+}
+
+.home-container h2:hover {
+    font-size: 84px;
+    color:#f42604;
+    border-bottom: 1px solid #f42604;  
+}
+
+.starter-template {
+    background-color: white;
+    opacity: 0.8;
+    min-height: 700px;
+}
+
+.text-welcome {
+    padding-top: 11%;
+}
