@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom"
 
 export default class Listcompanies extends React.Component{
 
@@ -31,7 +31,7 @@ export default class Listcompanies extends React.Component{
                                     <button type="button" className="btn btn-secondary">
                                     <Link to={{
                                             pathname: '/company',
-                                            state: { company: company.id }}}>Detail about the company </Link>
+                                            state: { company: company.id }}}>See more about the company </Link>
                                     </button>
                                 </div>
                             </div>                    

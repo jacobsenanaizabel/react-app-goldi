@@ -1,7 +1,6 @@
 import React from 'react'
 import axios from 'axios'
 
-
 export default class Discovery extends React.Component{
 
     constructor(props) {
@@ -30,7 +29,7 @@ export default class Discovery extends React.Component{
                         <div className="card-body">
                             <h4 className="card-title"> {company.subtitle}</h4>
                             <p className="card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</p>
-                            <a href="#" className="btn btn-primary">Go there</a>
+                            <a href={company.video} className="btn btn-primary" disabled={company.video} required={company.video} >See the video</a>
                         </div>
                     </div>
                 )}
