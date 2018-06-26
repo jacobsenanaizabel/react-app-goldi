@@ -35,6 +35,13 @@ body {
     justify-content: space-around;
     align-content: space-between;
 }
+.card-company {
+    width: 56%;
+    background-color: rgb(120, 180, 162);
+    margin-bottom: 30px;
+    margin-top: 6%;
+    margin-left: 23%;
+}
 
 .home-container {
     font-family: fantasy;

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Main from '../main/main'
 import Listcompanies from '../list-companies/listcompanies'
 import Discovery from '../discovery/discovery'
+import Company from "../company/company"
 
 
 const RouteConfig = () => (
@@ -31,6 +32,10 @@ const routes = [
         path: "/discovery",
         component: Discovery
     },
+    {
+        path: "/company",
+        component: Company
+    }
 ]
 
 const RouteWithSubRoutes = route => (
